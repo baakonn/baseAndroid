@@ -19,10 +19,10 @@ android {
 //        SHA256: 21:2D:F5:67:27:75:80:96:81:01:78:63:52:D1:4C:42:B1:A6:60:53:F0:F5:22:E3:97:8A:FE:42:CC:FC:E0:13
 
         release {
-            storeFile file("./src/jht_doc.keystore")
-            storePassword "jht2018"//key pwd
-            keyAlias "jht_doc"//key alias
-            keyPassword "jht2018"//key alias pwd
+            storeFile file("./src/XXXXXX.keystore")
+            storePassword "XXXXXX"//key pwd
+            keyAlias "XXXXXX"//key alias
+            keyPassword "XXXXXX"//key alias pwd
         }
     }
 
