@@ -38,7 +38,7 @@ android {
             buildConfigField "String", "BASE_URL", onLineAddress()
             buildConfigField "boolean", "LOG_DEBUG", "false"
             minifyEnabled true
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
